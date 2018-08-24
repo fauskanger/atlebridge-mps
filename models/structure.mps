@@ -103,6 +103,9 @@
       <property role="TrG5h" value="rank" />
       <ref role="AX2Wp" node="2rpLRs_qb94" resolve="CardRank" />
     </node>
+    <node concept="PrWs8" id="574a8I9RRR8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2rpLRs_pYYm">
     <property role="EcuMT" value="2799487957930078102" />
@@ -228,6 +231,13 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2rpLRs_qo08" resolve="GameRound" />
     </node>
+    <node concept="1TJgyj" id="574a8I9PcDO" role="1TKVEi">
+      <property role="IQ2ns" value="5891878792285440628" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="574a8I9PcDc" resolve="GameOption" />
+    </node>
     <node concept="PrWs8" id="2rpLRs_tNtL" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -311,6 +321,15 @@
       <property role="20kJfa" value="player" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2rpLRs_qo02" resolve="Player" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="574a8I9PcDc">
+    <property role="EcuMT" value="5891878792285440588" />
+    <property role="TrG5h" value="GameOption" />
+    <property role="34LRSv" value="GameOption" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="574a8I9PcDf" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
