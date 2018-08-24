@@ -1,7 +1,7 @@
 # AtleBridge Language
-Domain Specific Language for describing Oh Hell game sessions.
+Domain Specific Language for describing game sessions of the card game [Oh Hell][oh].
 Created with [MPS][mps].
-More specifically, this is for _AtleBridge_ which is a variant of [Oh Hell][oh] card game with some house rules.
+More specifically, this is for _AtleBridge_ which is a variant of the game with some house rules.
 
 Current state is very simple, and no house rules are implemented.
 
@@ -12,7 +12,7 @@ Here's a UML diagram of the concepts. It's made using [draw.io][dio]. From [this
 
 ### Scores
 Actually, the scores are supposed to be computed when running the editor. 
-I.e. when generating the executable code from the language editor contents, the described game should have it's scores being output into console. (Milestone 1) 
+I.e. when generating the executable code, the described game should have it's scores being output into console. (Milestone 1) 
 Thus, the `Scores` class is omitted - at least for now.
 
 ## Editor example
