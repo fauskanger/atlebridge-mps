@@ -32,7 +32,9 @@ Player `Thomas` predicts 3 ticks, but in round 2 the maximum possible is 2 ticks
 ![ex][ex2_img]
 
 ### Rounds not consecutive
-After round `2`, there should be round `3` (and not `4`). Also, negative predictions make no sense.
+Succeeding round `2` should be round `3` (and not `4`). 
+Round `2` should only have 2 turns, not 3.
+Also, negative predictions make no sense.
 
 ![ex][ex3_img]
 
