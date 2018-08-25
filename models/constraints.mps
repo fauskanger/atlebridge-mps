@@ -154,6 +154,7 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
+      <concept id="1171500988903" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenOperation" flags="nn" index="32TBzR" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
         <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
@@ -701,6 +702,53 @@
   </node>
   <node concept="1M2fIO" id="574a8I9PcDo">
     <ref role="1M2myG" to="4c7e:574a8I9PcDc" resolve="GameOption" />
+  </node>
+  <node concept="1M2fIO" id="574a8I9XRBe">
+    <ref role="1M2myG" to="4c7e:2rpLRs_qo06" resolve="RoundTurn" />
+    <node concept="9SLcT" id="574a8I9XRBf" role="9SGkU">
+      <node concept="3clFbS" id="574a8I9XRBg" role="2VODD2">
+        <node concept="3clFbF" id="574a8I9XRIz" role="3cqZAp">
+          <node concept="3clFbC" id="574a8I9YzSI" role="3clFbG">
+            <node concept="2OqwBi" id="574a8I9XVMC" role="3uHU7B">
+              <node concept="2OqwBi" id="574a8I9XT$R" role="2Oq$k0">
+                <node concept="2OqwBi" id="574a8I9XRVL" role="2Oq$k0">
+                  <node concept="EsrRn" id="574a8I9XRIy" role="2Oq$k0" />
+                  <node concept="32TBzR" id="574a8I9XSjy" role="2OqNvi" />
+                </node>
+                <node concept="v3k3i" id="574a8I9XVjX" role="2OqNvi">
+                  <node concept="chp4Y" id="574a8I9XVsq" role="v3oSu">
+                    <ref role="cht4Q" to="4c7e:2rpLRs_qo0f" resolve="CardPlay" />
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="574a8I9XWaU" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="574a8I9Y7MU" role="3uHU7w">
+              <node concept="2OqwBi" id="574a8I9Y4OJ" role="2Oq$k0">
+                <node concept="2OqwBi" id="574a8I9Y45I" role="2Oq$k0">
+                  <node concept="2OqwBi" id="574a8I9Y1fQ" role="2Oq$k0">
+                    <node concept="2OqwBi" id="574a8I9XZ6_" role="2Oq$k0">
+                      <node concept="EsrRn" id="574a8I9XYJ$" role="2Oq$k0" />
+                      <node concept="z$bX8" id="574a8I9XZzt" role="2OqNvi" />
+                    </node>
+                    <node concept="v3k3i" id="574a8I9Y3ok" role="2OqNvi">
+                      <node concept="chp4Y" id="574a8I9Y3_I" role="v3oSu">
+                        <ref role="cht4Q" to="4c7e:2rpLRs_qo07" resolve="Game" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1uHKPH" id="574a8I9Y4jB" role="2OqNvi" />
+                </node>
+                <node concept="3Tsc0h" id="574a8I9Y5rT" role="2OqNvi">
+                  <ref role="3TtcxE" to="4c7e:2rpLRs_qo0m" resolve="players" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="574a8I9Ydto" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
